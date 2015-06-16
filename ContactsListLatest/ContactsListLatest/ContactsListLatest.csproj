@@ -110,6 +110,8 @@
     <Content Include="packages.config" />
     <Content Include="apiapp.json" />
     <Content Include="Metadata\deploymentTemplates\apiappconfig.azureresource" />
+    <None Include="Properties\PublishProfiles\Microsoft-ApiApp1e8100ffe9df400bae7317fdfba4c663 %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\Microsoft-ApiApp1e8100ffe9df400bae7317fdfba4c663 %283%29.pubxml" />
     <None Include="Properties\PublishProfiles\Microsoft-ApiApp1e8100ffe9df400bae7317fdfba4c663.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -132,7 +134,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>29121</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
