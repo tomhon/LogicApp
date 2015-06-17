@@ -1,14 +1,16 @@
 ﻿{
-    "$schema": "http://json-schema.org/schemas/2014-11-01/apiapp.json#",
-    "id": "ContactsList",
-    "namespace": "microsoft.com",
-    "gateway": "2015-01-14",
-    "version": "1.0.0",
-    "title": "ContactsListTitle",
-    "summary": "Summary",
-    "author": "Author",
-    "endpoints": {
-        "apiDefinition": "/swagger/docs/v1",
-        "status": null
-    }
+  "$schema": "http://json-schema.org/schemas/2014-11-01/apiapp.json#",
+  //"id": "ContactsList",
+  "id": "PartnerList",
+  //"namespace": "microsoft.com",
+  "namespace": "tomhonhotmail.onmicrosoft.com",
+  "gateway": "2015-01-14",
+  "version": "1.0.0",
+  "title": "ContactsListTitle",
+  "summary": "Summary",
+  "author": "Author",
+  "endpoints": {
+    "apiDefinition": "/swagger/docs/v1",
+    "status": null
+  }
 }
